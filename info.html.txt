@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+    <title>My site</title>
+     <meta charset="UTF-8" />
+    </head>
+   <body>
+1. <h1 title="this is title attribute">Моя первая страница.</h1>
+2. <div>===================</div>
+3. <p>Текстовый текст 12345.</p>
+4. <p>Вторая сторочка такста.</p>
+5. <p>Здесь идет <em>очень важный</em> текст.</p>
+   <form>
+6. <input value="test"/>
+7. <input type="text"/>
+8. <input type="password"/>
+9. <input type="color"/>
+10. <input disabled />
+11. <input id="terms" type="checkbox" value="Согласен"/>
+12. <label for="terms">Я согласен со всем</label>
+13. <label><input type="checkbox"/> Вы совершеннолетний?</label>
+14. <p>Выберите тип пользователя:</p>
+15. <label>
+    <input type="radio"/>Покупатель
+    </label>
+    <label>
+    <input type="radio"/>Продавец
+    <label>
+16. <button type="submit">Click me</button> - кнопка регистрации, кнопка.
+17. <input type="submit"/>
+     </form>
+    </body>
+  </html>

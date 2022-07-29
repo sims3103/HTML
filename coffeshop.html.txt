@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+    <title>Coffeshop</title>
+     <meta charset="UTF-8" />
+    </head>
+  <body>
+<h1 title="this is title attribute">Coffeshop site</h1>
+<p>
+I am just a lousy bum	
+Searching for the unknown crumb	
+The crumb the crumb	
+Something or someone to come	
+Come along illuminate my lust	
+Combust
+</p>
+<p>
+Confucius might have been confused	
+And Buddha might have blown a fuse	
+I ooze the muse
+</p>
+<p>
+Meet me at the coffee shop	
+We can dance like Iggy Pop	
+Another go in the parking lot	
+Freak the cheek on your hot spot	
+Back and forth my body's jerking
+</p>
+</body>
+</html>
