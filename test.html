@@ -4,15 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>My site</title>
+    <title>My site</title>
     <meta charset="UTF-8" />
-   </head>
+
+    <style>
+      /* специфичность = 1 */
+      p{
+        /*
+        color: green;
+        color: rgb(red, green, blue)
+        color: rgba(red, green, blue, alpha)
+      */
+
+      /*
+      A=10
+      B=11
+      C=12
+      D=13
+      E=14
+      F=15
+      FF * 15 *16^1 + 15 *16^
+      */
+      color: #0000FF;
+      font-size: 20px;
+      }
+      /* специфичность = 10 */
+      .text {
+        color: green;
+      }
+      .text2{
+        color: purple;
+      }
+      /* специфичность = 100 */
+      #text{
+        color: red;
+      }
+    </style>
+
+  </head>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./assets/pages/contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <nav>
+        <ul>
+          <li>
+            <a href="#Fish">Про рыбок</a>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <h1>Иван Сирко</h1>
+        <p>Что я сегодня делал</p>
+      </article>
+      <article>
+        <h2>Мейн-Кун</h2>
+        <p>существует много пород котов...</p>
+        <section>
+          <h3>История происхождения</h3>
+          <p class=".text" id="#text">
+            Для любого человека найдется хоть одна порода кошек, которая ему подходит по всем параметрам. Есть различные классификации, делящие этих животных на виды и типы. Но все-таки более всего важно нижеприведенное деление.
+          </p>
+          <h3>Характеристика породы</h3>
+          <p class="text text2">
+            К ним относят британские, европейские, русские, абиссинские, восточные, сиамские и экзотические. Эти питомцы по праву считаются высокомерными,
+          </p>
+        </section>
+      </article>
+
+      <aside>
+        <p>доп инфо</p>
+      </aside>
+      
+      <!-- -->
+
+    <article id="Fish">
+        <h2>домашние рыбки</h2>
+        <p class="text" style="color: yellow;">существует много видов рыб...</p>
+    </article>
+        <p>Про попугаев</p>
+        <p>Про собак</p>
+        <p>Про попугаев</p>
+        <p>Про змей</p>
+        <p>Про хомяков</p>
+    </main>
     <h1>Contacts</h1>
     <a href="../test.html">To main</a>
     <p>Phone: +380994005181</p>
     <p>Email: makssims3103@gmail.com</p>
-<h1 title="this is title attribute">Моя первая страница.</h1>
 <div>===================</div>
   <ul>
     <li>
@@ -30,7 +119,9 @@
     <p>test</p>
   </li>
 </ol>
-<a href="https://youtube.com" target="_blank">Go to youtube</a>
+
+<span></span>
+a href="https://youtube.com" target="_blank">Go to youtube</a>
     <a href="pages/contacts.html">Go to contacts</a>
 <p>Текстовый текст 12345.</p>
 <p>Вторая сторочка такста.</p>
@@ -56,5 +147,9 @@
 <button type="submit">Click me</button> - кнопка регистрации, кнопка.
 <input type="submit"/>
     </form>
+    <footer>
+      <p>All reserved 2022.</p>
+    </footer>
+    <a href="#">Наверх</a>
    </body>
  </html>
