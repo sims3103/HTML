@@ -1,0 +1,76 @@
+    html{
+      font-family: "Roboto";
+    }    
+        body{
+          background-color: darkolivegreen;
+          color: yellow;
+          
+        }
+
+        .article {
+          font-size: 30px;
+          background-color: #333333; /* цвет заливки*/
+          color: white;
+          border: 5px dotted olive;
+          /* отступ с 4 сторон сразу*/
+          padding: 30px;
+          /* верх, право, низ, лево */
+          padding: 30px 60px 90px 120px;
+          /* вертикаль, горизонталь*/
+          padding: 30px 60px;
+          /* верх, горизонталь, низ*/
+          padding: 20px 20px 30px;
+        
+        
+          border: 20px solid olivedrab;
+          /* border-left: 30px dotted red;
+          border-bottom-color: yellow; */
+        
+          margin: 0 0 10px 0;
+        
+          width: 500px;
+          height: 600px;
+          display: inline-block;
+        }
+
+        .article-text {
+          color: #0000FF; /*цвет текста*/
+          background-color: rgb(64, 80, 35);
+          line-height: 1.6;/*нежирность текста*/
+          /*font-size: 20px;*/
+          font-weight: bold; /*жирность текста*/
+          font-style: italic;/*курсивность текста*/
+          font-family: Georgia, 'Times New Roman', Times, serif; /*семейство шрифтов*/
+          text-align:justify; /*растягивание текста по ширине*/
+          text-transform:uppercase; /*текст c капс локом*/
+
+          /*text-decoration-line: underline; /*подчеркнутый текст*/
+          /*text-decoration-color: aliceblue;/*цвет линии подчеркивания*/ 
+          /*text-decoration-style: wavy; /*стиль линии*/
+
+          text-decoration: underline wavy white;
+          
+
+        }
+
+        .link{
+          background-color: darkolivegreen;
+          /*font-size: 30px;*/ - /*initial откл наследование
+          inherit - вкл наследование*/
+        }
+        .article-heading{
+          text-align: center; /*выравниванине текста*/
+          /*font-size: 30px;*/
+          
+        }
+
+        .span{
+          font-size: 40px;
+          border: 5px solid red;
+          background-color: darkorange;
+          padding: 20px;
+          margin: 10px;
+          width: 100px;
+          height: 150px;
+          display: inline-block;
+        }
