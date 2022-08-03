@@ -115,8 +115,25 @@
           .class2{
             margin-left: auto;
             margin-top: 10px;
+            margin-bottom: 100px;
           }
 
           .class3{
             margin: 30px;
           }
+
+          .img{
+            width: 400px;
+            border-radius: 50% ; /*указываем закругленность картинки
+            /*object-fit исправляет картинки*/
+            object-fit: contain;
+            object-position: center; /*отцентровывает картинку*/
+          }
+           .wide-img{
+            object-position: 0 --50px; /*вырфвнивание картинки*/
+           }
+
+           .tall-img{
+                             /*вырфвнивание картинки*/
+           }
+            
