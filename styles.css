@@ -150,9 +150,10 @@
             background-color: #0000FF;
             font-size: 30px;
             border: 10px solid red;
-            padding: 20px;
-            height: 400px;
-            overflow: auto;/* выравнивание переполнения содержимого*/
+            /*padding: 400px;*/
+            height: 100vh; /* привязка к экрану высота*/
+            width: 50vw; /* привязка к экрану ширина*/
+            /*overflow: auto;/* выравнивание переполнения содержимого*/
            }
 
            .inner{
