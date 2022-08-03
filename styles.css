@@ -97,3 +97,26 @@
             height: 150px;
             display: inline-block;
           }
+
+          div{
+            width: 400px;
+            padding: 20px;
+            color: chartreuse;
+            border: 5px solid chartreuse;
+            font-size: 20px;
+          }
+
+          .class1{
+            margin: 0 auto0;
+            margin-bottom: 50px;
+            border: 5px solid chartreuse;
+          }
+
+          .class2{
+            margin-left: auto;
+            margin-top: 10px;
+          }
+
+          .class3{
+            margin: 30px;
+          }
