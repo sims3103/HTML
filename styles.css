@@ -130,10 +130,34 @@
             object-position: center; /*отцентровывает картинку*/
           }
            .wide-img{
-            object-position: 0 --50px; /*вырфвнивание картинки*/
+            object-position: 0 -50px; /*выравнивание картинки*/
            }
 
            .tall-img{
-                             /*вырфвнивание картинки*/
+                             /*выравнивание картинки*/
            }
             
+           .smoker-img{
+            height: 400px;
+            background-color: rgb(255, 255, 1);
+            background-image: url('../HTML/img/lofoten-islands-norvegiia-norway.jpg');
+            background-repeat: no-repeat; /*повтор картинки*/
+            background-size: cover; /*выравнивание картинки*/
+            background-position: 0 -10px;
+           }
+
+           .outer{
+            background-color: #0000FF;
+            font-size: 30px;
+            border: 10px solid red;
+            padding: 20px;
+            height: 400px;
+            overflow: auto;/* выравнивание переполнения содержимого*/
+           }
+
+           .inner{
+            background-color: white;
+            font-size: 35px;
+            border: 10px solid black;
+            padding: 20px;
+           }
