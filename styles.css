@@ -202,3 +202,21 @@
               height: 100vmin;
               border: 10px solid;
             }
+
+            ul{
+              /*list-style
+              list-style-type
+
+              list-style-position
+
+              list-style-image*/
+
+              /*list-style: decimal;
+              list-style: georgian;
+              list-style: armenian;*/
+              /*list-style: '\U264F';*/
+              /*list-style: inside url'https://resheto.net/images/mater/pozitivnye_kartinki_2.jpg';*/
+              list-style-type: none ; /*отключать кружочки*/
+
+
+            }
