@@ -17,3 +17,28 @@ background-color: chartreuse;
 [title$="end"]{
 background-color: crimson;
 }
+
+a[href="https://google.com"][title]#first1.class1.class2 {
+  background-color: cyan;
+  color: black;
+}
+
+
+div p{
+  color: rgb(200, 46, 29);
+}
+/*если много селекторов то они пишутся с новой строчки*/
+div > p,    /*комбинатор дочерних элем, правый потомок левого элемента*/
+div > p > a{     /*cколько бы мы не ставили > стили будут применяться к последнему элементу*/
+  font-size: 60px;
+  color: yellow;
+}
+
+p ~ p{
+  font-weight: bold; /*селектор применяется ко всем параграфам кроме первого,так как перед ним не идет праграф*/
+}
+
+p + p, /*если много селекторов то они пишутся с новой строчки*/
+.article > .text + .text{
+  font-style: italic; /*селектор применяется,если через один знак перед ним был р*/
+}
