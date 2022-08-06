@@ -1,0 +1,22 @@
+table{
+  border-collapse: collapse;
+}
+caption{
+font-weight: bold;
+font-size: 24px;
+text-align: center;
+text-indent: 10px;
+}
+
+td{
+  padding: 10px 20px; 
+  color: black;
+  border: 2px solid;
+  background-color: rgb(255, 194, 170);
+}
+th{
+  padding:10px 20px; 
+  color: black;
+  border: 2px solid;
+  background-color: rgb(180, 222, 74);
+}
