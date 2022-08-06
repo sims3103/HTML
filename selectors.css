@@ -1,0 +1,19 @@
+[title] {
+  color: blue; /*без разницы где мы применим title он везде будет выполнять одну функцию*/
+}
+
+[href="https://google.com"] {
+  background-color: lightgreen;
+  color: green;
+}
+[title*="test"]{
+  color: purple;
+}
+
+[title^="start"]{
+background-color: chartreuse;
+}
+
+[title$="end"]{
+background-color: crimson;
+}
