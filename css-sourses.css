@@ -1,0 +1,10 @@
+p{
+  --text-color: aqua;
+  --font-size: 20px;
+  color: var(--text-color);
+}
+
+:root {
+  --text-color: aqua;
+  --font-size: 20px;
+}
