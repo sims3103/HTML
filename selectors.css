@@ -42,3 +42,40 @@ p + p, /*если много селекторов то они пишутся с 
 .article > .text + .text{
   font-style: italic; /*селектор применяется,если через один знак перед ним был р*/
 }
+
+.btn{
+  background-color: blue;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.btn:hover{
+  color: aliceblue;
+  background-color: blue;
+}
+
+.btn:active {
+  color: red;
+}
+
+.btn:focus{
+  border-color: red;
+}
+
+.interactive-section > p:first-child{
+  color: red;
+}
+
+.interactive-section > p:last-child{ /*even-четные odd-не  четные*/
+  color: purple;
+}
+
+.interactive-section > p:nth-child(2){ /*для чутных*/
+  color: rgb(50, 195, 89);
+}
+
+
+:root{
+  font-size: 24px;
+}
