@@ -30,13 +30,17 @@
   }
 
   .pos-fixed{
-    width: initial;
-    position: fixed;
-    background-color: chartreuse;
-    left: 0;
-    /*transform: translateX(-50%)*/
-    right: 0;
-    top: 0;
+    
+      /* width: initial; */
+  /* height: initial; */
+  position: fixed;
+  background-color: limegreen;
+  /* left: 50%;
+  transform: translateX(-50%); */
+  left: 0;
+  /* right: 0; */
+  top: 0;
+  /* bottom: 0; */
   }
 
   .pos-relative-conteiner2{
